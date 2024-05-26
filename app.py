@@ -37,6 +37,3 @@ def weather(city):
     cf=data
     return cf
 
-if __name__ == '__main__':
-    app.run()
-

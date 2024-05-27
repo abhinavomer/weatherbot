@@ -11,7 +11,7 @@ def index():
     cf=weather(city)
     temp=cf['temp']
     response={
-        'fulfillmentText':"Temperature of {} is {} degree celcius".format(city,temp)
+        'fulfillmentText':"Temperature of {} is {}.".format(city,temp)
     }
     print (jsonify(response))
     return jsonify(response)
